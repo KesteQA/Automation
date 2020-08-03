@@ -1,0 +1,21 @@
+# Created at 2020-05-29T12:25:52.556
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2020-05-29T12:25:53.726
+Unexpected IOException: 8,1,com.TestCases.EndToEndFlow,setUp(com.TestCases.EndToEndFlow),null,null,null,null,EndToEndFlow>BaseTest.setUp:30->BasePage.domLoaded:147 \00BB NullPointer,java.lang.NullPointerException\000A
+
+
+# Created at 2020-05-29T12:25:53.731
+Unexpected IOException: 9,1,com.TestCases.EndToEndFlow,VerifyEndToEndFlowPositive(com.TestCases.EndToEndFlow),null,null,null
+
+
+# Created at 2020-05-29T12:25:53.937
+Unexpected IOException: 8,1,com.TestCases.EndToEndFlow,VerifyEndToEndFlowPositive(com.TestCases.EndToEndFlow),null,null,null,null,EndToEndFlow.VerifyEndToEndFlowPositive \00BB NullPointer,java.lang.NullPointerException\000A
+
+

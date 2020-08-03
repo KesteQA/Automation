@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="11" total="12" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test_suite" duration-ms="243683" started-at="2020-07-31T18:12:27Z" finished-at="2020-07-31T18:16:30Z">
+    <groups>
+    </groups>
+    <test name="Regression testing" duration-ms="243683" started-at="2020-07-31T18:12:27Z" finished-at="2020-07-31T18:16:30Z">
+      <class name="com.TestCases.CRM2CPQ">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestCases.CRM2CPQ@76505305]" name="setUp" is-config="true" duration-ms="26625" started-at="2020-07-31T18:12:27Z" finished-at="2020-07-31T18:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LeadtoQuote()[pri:0, instance:com.TestCases.CRM2CPQ@76505305]" name="LeadtoQuote" duration-ms="217041" started-at="2020-07-31T18:12:53Z" finished-at="2020-07-31T18:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadtoQuote -->
+        <test-method status="PASS" signature="wrapUp()[pri:0, instance:com.TestCases.CRM2CPQ@76505305]" name="wrapUp" is-config="true" duration-ms="0" started-at="2020-07-31T18:16:30Z" finished-at="2020-07-31T18:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUp -->
+      </class> <!-- com.TestCases.CRM2CPQ -->
+      <class name="com.TestCases.AccountToQuote">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.TestCases.AccountToQuote@73a1e9a9]" name="afterSuite" is-config="true" duration-ms="2" started-at="2020-07-31T18:16:31Z" finished-at="2020-07-31T18:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.TestCases.AccountToQuote -->
+    </test> <!-- Regression testing -->
+  </suite> <!-- test_suite -->
+</testng-results>

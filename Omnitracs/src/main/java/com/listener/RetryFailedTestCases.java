@@ -1,0 +1,22 @@
+package com.listener;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+import com.utlis.ReadPropertyFile;
+
+public class RetryFailedTestCases implements IRetryAnalyzer {
+	int counter = 0;
+	int limit = Integer.parseInt(ReadPropertyFile.get("NoOfRetries"));
+
+	@Override
+	public boolean retry(ITestResult result) {
+		// TODO Auto-generated method stub
+		if (counter < limit) {
+			counter++;
+			return true;
+		}
+		return false;
+	}
+
+}

@@ -1,0 +1,832 @@
+# Created at 2020-05-29T10:39:13.170
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2020-05-29T10:39:15.471
+Unexpected IOException with stream: [
+
+# Created at 2020-05-29T10:39:15.474
+Unexpected IOException with stream: 1
+
+# Created at 2020-05-29T10:39:15.477
+Unexpected IOException with stream: 5
+
+# Created at 2020-05-29T10:39:15.479
+Unexpected IOException with stream: 9
+
+# Created at 2020-05-29T10:39:15.481
+Unexpected IOException with stream: 0
+
+# Created at 2020-05-29T10:39:15.482
+Unexpected IOException with stream: 7
+
+# Created at 2020-05-29T10:39:15.484
+Unexpected IOException with stream: 2
+
+# Created at 2020-05-29T10:39:15.486
+Unexpected IOException with stream: 8
+
+# Created at 2020-05-29T10:39:15.488
+Unexpected IOException with stream: 9
+
+# Created at 2020-05-29T10:39:15.490
+Unexpected IOException with stream: 5
+
+# Created at 2020-05-29T10:39:15.492
+Unexpected IOException with stream: 5
+
+# Created at 2020-05-29T10:39:15.493
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:15.496
+Unexpected IOException with stream: 4
+
+# Created at 2020-05-29T10:39:15.497
+Unexpected IOException with stream: 7
+
+# Created at 2020-05-29T10:39:15.499
+Unexpected IOException with stream: 0
+
+# Created at 2020-05-29T10:39:15.500
+Unexpected IOException with stream: ]
+
+# Created at 2020-05-29T10:39:15.501
+Unexpected IOException with stream: [
+
+# Created at 2020-05-29T10:39:15.503
+Unexpected IOException with stream: W
+
+# Created at 2020-05-29T10:39:15.506
+Unexpected IOException with stream: A
+
+# Created at 2020-05-29T10:39:15.507
+Unexpected IOException with stream: R
+
+# Created at 2020-05-29T10:39:15.509
+Unexpected IOException with stream: N
+
+# Created at 2020-05-29T10:39:15.511
+Unexpected IOException with stream: I
+
+# Created at 2020-05-29T10:39:15.513
+Unexpected IOException with stream: N
+
+# Created at 2020-05-29T10:39:15.514
+Unexpected IOException with stream: G
+
+# Created at 2020-05-29T10:39:15.516
+Unexpected IOException with stream: ]
+
+# Created at 2020-05-29T10:39:15.517
+Unexpected IOException with stream: :
+
+# Created at 2020-05-29T10:39:15.518
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:15.519
+Unexpected IOException with stream: T
+
+# Created at 2020-05-29T10:39:15.520
+Unexpected IOException with stream: i
+
+# Created at 2020-05-29T10:39:15.521
+Unexpected IOException with stream: m
+
+# Created at 2020-05-29T10:39:15.522
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:15.523
+Unexpected IOException with stream: d
+
+# Created at 2020-05-29T10:39:15.524
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:15.525
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:15.526
+Unexpected IOException with stream: u
+
+# Created at 2020-05-29T10:39:15.527
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:15.528
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:15.529
+Unexpected IOException with stream: c
+
+# Created at 2020-05-29T10:39:15.530
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:15.531
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:15.533
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:15.533
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:15.534
+Unexpected IOException with stream: c
+
+# Created at 2020-05-29T10:39:15.535
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:15.536
+Unexpected IOException with stream: i
+
+# Created at 2020-05-29T10:39:15.538
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:15.539
+Unexpected IOException with stream: g
+
+# Created at 2020-05-29T10:39:15.540
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:15.541
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:15.542
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:15.543
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:15.544
+Unexpected IOException with stream: C
+
+# Created at 2020-05-29T10:39:15.545
+Unexpected IOException with stream: h
+
+# Created at 2020-05-29T10:39:15.546
+Unexpected IOException with stream: r
+
+# Created at 2020-05-29T10:39:15.546
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:15.547
+Unexpected IOException with stream: m
+
+# Created at 2020-05-29T10:39:15.548
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:15.549
+Unexpected IOException with stream: ,
+
+# Created at 2020-05-29T10:39:15.550
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:15.550
+Unexpected IOException with stream: r
+
+# Created at 2020-05-29T10:39:15.551
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:15.552
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:15.553
+Unexpected IOException with stream: r
+
+# Created at 2020-05-29T10:39:15.555
+Unexpected IOException with stream: y
+
+# Created at 2020-05-29T10:39:15.556
+Unexpected IOException with stream: i
+
+# Created at 2020-05-29T10:39:15.556
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:15.557
+Unexpected IOException with stream: g
+
+# Created at 2020-05-29T10:39:15.558
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:15.558
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:15.559
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:15.560
+Unexpected IOException with stream: 
+
+# Created at 2020-05-29T10:39:15.561
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:19.503
+Unexpected IOException: 8,1,com.TestCases.EndToEndFlow,VerifyEndToEndFlowPositive(com.TestCases.EndToEndFlow),null,chrome not reachable\000A  (Session info: chrome=83.0.4103.61)\000A  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90)\002Cplatform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LTRSELVANAMBI-1'\002C ip: '192.168.0.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54...\002C userDataDir: C:\005CUsers\005CRSELVA~1\005CAppData\005CL...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55157}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 83.0.4103.61\002C webStorageEnabled: true}\000ASession ID: d68e1ccc05e02bd7a1fbaee1f629ed32\000A*** Element info: {Using=xpath\002C value=//div[text()='Account']/parent::div/div[@class='bodyConvertedItem']/div[@class='primaryField truncate']/a},null,chrome not reachable\000A  (Session info: chrome=83.0.4103.61)\000A  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90)\002Cplatform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LTRSELVANAMBI-1'\002C ip: '192.168.0.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54...\002C userDataDir: C:\005CUsers\005CRSELVA~1\005CAppData\005CL...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55157}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 83.0.4103.61\002C webStorageEnabled: true}\000ASession ID: d68e1ccc05e02bd7a1fbaee1f629ed32\000A*** Element info: {Using=xpath\002C value=//div[text()='Account']/parent::div/div[@class='bodyConvertedItem']/div[@class='primaryField truncate']/a},EndToEndFlow.VerifyEndToEndFlowPositive:92->BasePage.getText:98->BasePage.explicitlyWait:47 \00BB WebDriver,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=83.0.4103.61)\000A  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90)\002Cplatform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LTRSELVANAMBI-1'\002C ip: '192.168.0.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54...\002C userDataDir: C:\005CUsers\005CRSELVA~1\005CAppData\005CL...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55157}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 83.0.4103.61\002C webStorageEnabled: true}\000ASession ID: d68e1ccc05e02bd7a1fbaee1f629ed32\000A*** Element info: {Using=xpath\002C value=//div[text()='Account']/parent::div/div[@class='bodyConvertedItem']/div[@class='primaryField truncate']/a}\000A\0009at com.TestCases.EndToEndFlow.VerifyEndToEndFlowPositive(EndToEndFlow.java:92)\000A
+
+
+# Created at 2020-05-29T10:39:21.510
+Unexpected IOException with stream: [
+
+# Created at 2020-05-29T10:39:21.512
+Unexpected IOException with stream: 1
+
+# Created at 2020-05-29T10:39:21.513
+Unexpected IOException with stream: 5
+
+# Created at 2020-05-29T10:39:21.515
+Unexpected IOException with stream: 9
+
+# Created at 2020-05-29T10:39:21.517
+Unexpected IOException with stream: 0
+
+# Created at 2020-05-29T10:39:21.518
+Unexpected IOException with stream: 7
+
+# Created at 2020-05-29T10:39:21.520
+Unexpected IOException with stream: 2
+
+# Created at 2020-05-29T10:39:21.522
+Unexpected IOException with stream: 8
+
+# Created at 2020-05-29T10:39:21.523
+Unexpected IOException with stream: 9
+
+# Created at 2020-05-29T10:39:21.525
+Unexpected IOException with stream: 6
+
+# Created at 2020-05-29T10:39:21.526
+Unexpected IOException with stream: 1
+
+# Created at 2020-05-29T10:39:21.528
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:21.530
+Unexpected IOException with stream: 5
+
+# Created at 2020-05-29T10:39:21.531
+Unexpected IOException with stream: 0
+
+# Created at 2020-05-29T10:39:21.533
+Unexpected IOException with stream: 9
+
+# Created at 2020-05-29T10:39:21.535
+Unexpected IOException with stream: ]
+
+# Created at 2020-05-29T10:39:21.536
+Unexpected IOException with stream: [
+
+# Created at 2020-05-29T10:39:21.537
+Unexpected IOException with stream: W
+
+# Created at 2020-05-29T10:39:21.539
+Unexpected IOException with stream: A
+
+# Created at 2020-05-29T10:39:21.540
+Unexpected IOException with stream: R
+
+# Created at 2020-05-29T10:39:21.542
+Unexpected IOException with stream: N
+
+# Created at 2020-05-29T10:39:21.544
+Unexpected IOException with stream: I
+
+# Created at 2020-05-29T10:39:21.545
+Unexpected IOException with stream: N
+
+# Created at 2020-05-29T10:39:21.546
+Unexpected IOException with stream: G
+
+# Created at 2020-05-29T10:39:21.547
+Unexpected IOException with stream: ]
+
+# Created at 2020-05-29T10:39:21.548
+Unexpected IOException with stream: :
+
+# Created at 2020-05-29T10:39:21.549
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:21.550
+Unexpected IOException with stream: T
+
+# Created at 2020-05-29T10:39:21.551
+Unexpected IOException with stream: i
+
+# Created at 2020-05-29T10:39:21.552
+Unexpected IOException with stream: m
+
+# Created at 2020-05-29T10:39:21.553
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:21.553
+Unexpected IOException with stream: d
+
+# Created at 2020-05-29T10:39:21.554
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:21.555
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:21.556
+Unexpected IOException with stream: u
+
+# Created at 2020-05-29T10:39:21.557
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:21.558
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:21.560
+Unexpected IOException with stream: c
+
+# Created at 2020-05-29T10:39:21.560
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:21.561
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:21.562
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:21.563
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:21.564
+Unexpected IOException with stream: c
+
+# Created at 2020-05-29T10:39:21.565
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:21.565
+Unexpected IOException with stream: i
+
+# Created at 2020-05-29T10:39:21.566
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:21.567
+Unexpected IOException with stream: g
+
+# Created at 2020-05-29T10:39:21.568
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:21.569
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:21.570
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:21.571
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:21.572
+Unexpected IOException with stream: C
+
+# Created at 2020-05-29T10:39:21.573
+Unexpected IOException with stream: h
+
+# Created at 2020-05-29T10:39:21.574
+Unexpected IOException with stream: r
+
+# Created at 2020-05-29T10:39:21.574
+Unexpected IOException with stream: o
+
+# Created at 2020-05-29T10:39:21.576
+Unexpected IOException with stream: m
+
+# Created at 2020-05-29T10:39:21.577
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:21.578
+Unexpected IOException with stream: ,
+
+# Created at 2020-05-29T10:39:21.579
+Unexpected IOException with stream:  
+
+# Created at 2020-05-29T10:39:21.580
+Unexpected IOException with stream: r
+
+# Created at 2020-05-29T10:39:21.580
+Unexpected IOException with stream: e
+
+# Created at 2020-05-29T10:39:21.581
+Unexpected IOException with stream: t
+
+# Created at 2020-05-29T10:39:21.583
+Unexpected IOException with stream: r
+
+# Created at 2020-05-29T10:39:21.583
+Unexpected IOException with stream: y
+
+# Created at 2020-05-29T10:39:21.584
+Unexpected IOException with stream: i
+
+# Created at 2020-05-29T10:39:21.585
+Unexpected IOException with stream: n
+
+# Created at 2020-05-29T10:39:21.586
+Unexpected IOException with stream: g
+
+# Created at 2020-05-29T10:39:21.587
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:21.589
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:21.590
+Unexpected IOException with stream: .
+
+# Created at 2020-05-29T10:39:21.591
+Unexpected IOException with stream: 
+
+# Created at 2020-05-29T10:39:21.593
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.521
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTRSELVANAMBI-1', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\RSELVA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55157}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: d68e1ccc05e02bd7a1fbaee1f629ed32
+
+# Created at 2020-05-29T10:39:25.523
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.526
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-05-29T10:39:25.528
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.529
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-05-29T10:39:25.531
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.533
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-05-29T10:39:25.536
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.537
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+# Created at 2020-05-29T10:39:25.539
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.541
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+
+# Created at 2020-05-29T10:39:25.543
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.545
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created at 2020-05-29T10:39:25.547
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.548
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created at 2020-05-29T10:39:25.550
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.552
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created at 2020-05-29T10:39:25.554
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.555
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+
+# Created at 2020-05-29T10:39:25.557
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.558
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+
+# Created at 2020-05-29T10:39:25.560
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.561
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-05-29T10:39:25.563
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.565
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-05-29T10:39:25.566
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.568
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-05-29T10:39:25.569
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.571
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created at 2020-05-29T10:39:25.572
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.573
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+
+# Created at 2020-05-29T10:39:25.575
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.576
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-05-29T10:39:25.578
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.579
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-05-29T10:39:25.580
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.582
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-05-29T10:39:25.584
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.585
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+
+# Created at 2020-05-29T10:39:25.587
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.589
+Unexpected IOException with stream: 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+
+# Created at 2020-05-29T10:39:25.590
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.592
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy9.getScreenshotAs(Unknown Source)
+
+# Created at 2020-05-29T10:39:25.594
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.595
+Unexpected IOException with stream: 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+
+# Created at 2020-05-29T10:39:25.596
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.598
+Unexpected IOException with stream: 	at com.base.BasePage.takeScreenshot(BasePage.java:193)
+
+# Created at 2020-05-29T10:39:25.599
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.600
+Unexpected IOException with stream: 	at com.listener.ListenerClass.onTestFailure(ListenerClass.java:51)
+
+# Created at 2020-05-29T10:39:25.601
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.602
+Unexpected IOException with stream: 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+
+# Created at 2020-05-29T10:39:25.603
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.604
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+
+# Created at 2020-05-29T10:39:25.605
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.606
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+
+# Created at 2020-05-29T10:39:25.607
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.608
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2020-05-29T10:39:25.610
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.610
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2020-05-29T10:39:25.611
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.612
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2020-05-29T10:39:25.613
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.614
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2020-05-29T10:39:25.615
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.616
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2020-05-29T10:39:25.617
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.618
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2020-05-29T10:39:25.619
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.620
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2020-05-29T10:39:25.621
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.622
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2020-05-29T10:39:25.623
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.624
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2020-05-29T10:39:25.625
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.626
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2020-05-29T10:39:25.628
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.629
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2020-05-29T10:39:25.630
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.631
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2020-05-29T10:39:25.632
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.633
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2020-05-29T10:39:25.634
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.635
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2020-05-29T10:39:25.636
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.637
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2020-05-29T10:39:25.638
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.638
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2020-05-29T10:39:25.639
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.640
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2020-05-29T10:39:25.642
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.642
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2020-05-29T10:39:25.643
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.644
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2020-05-29T10:39:25.645
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.646
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-05-29T10:39:25.648
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.648
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-05-29T10:39:25.649
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.650
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-05-29T10:39:25.651
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.652
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-05-29T10:39:25.653
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-29T10:39:25.774
+Unexpected IOException: 8,1,com.TestCases.EndToEndFlow,wrapUp(com.TestCases.EndToEndFlow),null,chrome not reachable\000A  (Session info: chrome=83.0.4103.61)\000A  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90)\002Cplatform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LTRSELVANAMBI-1'\002C ip: '192.168.0.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54...\002C userDataDir: C:\005CUsers\005CRSELVA~1\005CAppData\005CL...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55157}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 83.0.4103.61\002C webStorageEnabled: true}\000ASession ID: d68e1ccc05e02bd7a1fbaee1f629ed32,null,chrome not reachable\000A  (Session info: chrome=83.0.4103.61)\000A  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90)\002Cplatform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LTRSELVANAMBI-1'\002C ip: '192.168.0.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54...\002C userDataDir: C:\005CUsers\005CRSELVA~1\005CAppData\005CL...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55157}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 83.0.4103.61\002C webStorageEnabled: true}\000ASession ID: d68e1ccc05e02bd7a1fbaee1f629ed32,EndToEndFlow>BaseTest.wrapUp:39 \00BB WebDriver chrome not reachable\000A  (Session in...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=83.0.4103.61)\000A  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90)\002Cplatform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LTRSELVANAMBI-1'\002C ip: '192.168.0.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54...\002C userDataDir: C:\005CUsers\005CRSELVA~1\005CAppData\005CL...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55157}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 83.0.4103.61\002C webStorageEnabled: true}\000ASession ID: d68e1ccc05e02bd7a1fbaee1f629ed32\000A
+
+
+# Created at 2020-05-29T10:39:25.778
+Unexpected IOException: 9,1,com.TestCases.EndToEndFlow,setUp(com.TestCases.EndToEndFlow),null,null,null
+
+
+# Created at 2020-05-29T10:39:25.782
+Unexpected IOException: 9,1,com.TestCases.EndToEndFlow,VerifyEndToEndFlowNegative(com.TestCases.EndToEndFlow),null,chrome not reachable\000A  (Session info: chrome=83.0.4103.61)\000A  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90)\002Cplatform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LTRSELVANAMBI-1'\002C ip: '192.168.0.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54...\002C userDataDir: C:\005CUsers\005CRSELVA~1\005CAppData\005CL...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55157}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 83.0.4103.61\002C webStorageEnabled: true}\000ASession ID: d68e1ccc05e02bd7a1fbaee1f629ed32,null
+
+
+# Created at 2020-05-29T10:39:25.784
+Unexpected IOException: 9,1,com.TestCases.EndToEndFlow,wrapUp(com.TestCases.EndToEndFlow),null,null,null
+
+
+# Created at 2020-05-29T10:39:26.250
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
