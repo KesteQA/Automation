@@ -92,7 +92,7 @@ public OpportunitiesPage()
 	{
 		click(oppNew_bttn);
 		try {
-		Thread.sleep(6000);
+		Thread.sleep(7000);
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
