@@ -49,7 +49,10 @@ public class BasePage {
 		WebDriverWait wait=new WebDriverWait(driver,Constants.EXPLICITWAIT);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
-	
+	public void test()
+	{
+		
+	}
 	public void startBrowser() {
 		String browser=ReadPropertyFile.get("Browser");
 		try {
