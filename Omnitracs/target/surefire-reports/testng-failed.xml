@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [test_suite]">
+<suite name="Failed suite [test_suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="com.listener.ListenerClass"/>
     <listener class-name="com.listener.AnnotationTransformer"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="Regression testing(failed)">
+  <test thread-count="5" name="Regression testing(failed)" verbose="0">
     <classes>
-      <class name="com.TestCases.CRM2CPQ">
+      <class name="com.TestCases.CRM2CLM">
         <methods>
           <include name="wrapUp"/>
+          <include name="AcctoLegalAgreement"/>
           <include name="afterSuite"/>
           <include name="setUp"/>
-          <include name="LeadtoQuote"/>
         </methods>
-      </class> <!-- com.TestCases.CRM2CPQ -->
+      </class> <!-- com.TestCases.CRM2CLM -->
     </classes>
   </test> <!-- Regression testing(failed) -->
 </suite> <!-- Failed suite [test_suite] -->

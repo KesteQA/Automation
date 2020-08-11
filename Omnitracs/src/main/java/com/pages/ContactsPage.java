@@ -1,7 +1,9 @@
 package com.pages;
 
+import java.util.List;
 import java.util.Map;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -34,9 +36,15 @@ public class ContactsPage extends BasePage{
 	@FindBy(xpath = "//span[contains(text(),'Account Name')]/parent::label//following-sibling::div//input")
 	WebElement accName_txt;
 	
+	public @FindBy(xpath = "//h2/a/span[text()='Opportunities']")
+	WebElement oppRelatedList_tab;
+
 
 	@FindBy(xpath= "//lightning-formatted-name")
 	WebElement contactName_txt;
+	
+	@FindBy(xpath="//div[@class='inlineFooter']/div/button/span[text()='Next']")
+	WebElement Next_bttn;
 	
 	public String mandatoryValidationTxt = "These required fields must be completed: Account Name, Primary Email, Last Name";
 	
@@ -87,6 +95,30 @@ public class ContactsPage extends BasePage{
 		return getText(contactsValidation_info);
 	}
 	
+	public void selectContactType(String contactType)
+	{
+		selectObjectType(contactType);
+		Next_bttn.click();
+	}
 	
+	
+	public void clickOppRelatedList()
+	{
+		
+		explicitlyWait(oppRelatedList_tab);
+		javascriptClick(oppRelatedList_tab);
+		//click(oppRelatedList_tab);
+	}
+	
+	public String  createContactWithAccPopulated()
+	{
+		String nametestdata = TestUtils.getRandomString(4);
+		selectRandomFromDropDown(false, "Salutation");
+		sendkeys(getInputTextField("First Name"), nametestdata);
+		sendkeys(getInputTextField("Last Name"), nametestdata);
+		sendkeys(getInputTextField("Email"), nametestdata+"@testing.com");
+		click(contactSave_bttn);
+		return nametestdata + " "+ nametestdata ;
+	}
 	
 }

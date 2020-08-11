@@ -1,0 +1,7 @@
+com\TestCases\OpportunitiesTest.class
+com\TestCases\LeadsTest.class
+com\TestCases\CRM2CPQ.class
+com\TestRunner\BaseTest.class
+com\TestCases\AccountToQuote.class
+com\TestCases\CRM2CLM.class
+com\TestCases\ContactsTest.class

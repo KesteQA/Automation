@@ -19,6 +19,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -45,21 +46,21 @@ public class BasePage {
 		PropertyConfigurator.configure(Constants.log4jPropertiesPath);
 	}
 	
-	private static void explicitlyWait(WebElement element) {
+	public static void explicitlyWait(WebElement element) {
 		WebDriverWait wait=new WebDriverWait(driver,Constants.EXPLICITWAIT);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
-	public void test()
-	{
-		
-	}
+	
 	public void startBrowser() {
 		String browser=ReadPropertyFile.get("Browser");
 		try {
 			if(browser.equalsIgnoreCase("chrome")) {
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--disable-notifications");
+					WebDriverManager.chromedriver().setup();  
+					System.setProperty("webdriver.chrome.driver", Constants.CHROMEDRIVERPATH);
+					driver=new ChromeDriver(options);
 				//WebDriverManager.chromedriver().setup();  
-				System.setProperty("webdriver.chrome.driver", Constants.CHROMEDRIVERPATH);
-				driver=new ChromeDriver();
 			}
 			else if(browser.equalsIgnoreCase("firefox")) 
 			{
@@ -384,4 +385,47 @@ public static void selectSearchSuggestion(String searchKeyword)
 	//click(searchSuggestion);
 }
 
+public static void clickRelatedList(String relatedListName) {
+	
+	WebElement relatedList = driver.findElement(By.xpath("//span[text()='"+relatedListName+"' and @title = '"+relatedListName+"']//following-sibling::span"));
+	Actions action = new Actions(driver);
+	explicitlyWait(relatedList);
+	action.moveToElement(relatedList).build().perform();
+	javascriptClick(relatedList);
+	//WebElement itemsCount = driver.findElement(By.xpath("//span[contains(text(),'item')]"));
+	//String numberofrecords = itemsCount.getText();
+	//System.out.println(numberofrecords.substring(0, numberofrecords.indexOf(' ')).trim());
+}
+
+public static void javascriptClick(WebElement elementtobeClicked)
+{
+	JavascriptExecutor executor = (JavascriptExecutor)driver;
+	executor.executeScript("arguments[0].click();", elementtobeClicked);	
+}
+
+
+public static void toObjFromRelatedList(String objectName)
+{
+	WebElement objLink = driver.findElement(By.xpath("//a[contains(@title,'"+objectName +"')]"));
+	//System.out.println("value is "+ objLink.getText());
+	//System.out.println("is displayed"+ objLink.isDisplayed());
+	javascriptClick(objLink);
+}
+
+public static String getSuccessText()
+{
+	
+	WebElement successText = driver.findElement(By.xpath("/html/body/div[6]/div/div/div"));
+	//explicitlyWait(successText);
+	String messageDisplayed = getText(successText);
+	return messageDisplayed;
+	
+}
+
+public static void clickHyperLinkObject(String objectname)
+{
+	WebElement contactCell = driver.findElement(By.xpath("//a[@title='"+objectname+"']"));
+	explicitlyWait(contactCell);
+	click(contactCell);
+}
 }

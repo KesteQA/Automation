@@ -24,10 +24,6 @@ public class BaseTest extends BasePage{
 	@BeforeMethod
 	public void setUp() {
 		startBrowser();
-		loginPage = new LoginPage();
-		loginPage.login("BD");
-		//ExtentTestManager.getTest().log(Status.INFO,"logged in as BD profile");
-		logger.info("Logged in to application");
 		BasePage.domLoaded();
 	}
 	

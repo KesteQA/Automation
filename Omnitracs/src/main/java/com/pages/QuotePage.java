@@ -26,6 +26,14 @@ public class QuotePage extends BasePage {
 	@FindBy(xpath="//*[contains(@name,'vfFrameId_')]")
 	WebElement containerFrame;
 	
+	@FindBy(xpath="//slot[@name='actionsProvider']//following-sibling::ul/li[4]//button")
+	WebElement moreActions_icon;
+	
+	@FindBy(xpath="//span[contains(text(), 'Generate Document')]")
+	WebElement generateDocument_bttn;
+	
+	//span[contains(text(), 'Generate Document')]
+	
 	public @FindBy(xpath = " //paper-button[text()='Add Products']")
 	WebElement addProducts_bttn;
 	
@@ -53,8 +61,45 @@ public class QuotePage extends BasePage {
 	public @FindBy(xpath = " //button[text()='Save']")
 	WebElement quoteSave_bttn;
 	
+	 @FindBy(xpath = " //label[contains(text(),'Document Generation Choice')]/parent::lightning-combobox//div/input")
+	WebElement DocumentType_dropdown;
+	 
+	 @FindBy(xpath = " //label[contains(text(),'Document Language')]/following-sibling::lightning-input-field//div[@role ='combobox']")
+		WebElement DocumentLang_dropdown;
+		 
+	
 	public @FindBy(xpath = " //span[text()='Edit Opportunity']/parent::button/preceding-sibling::span//a")
 	WebElement opportunity_link;
+	
+	@FindBy(xpath = "//button[text()='Generate']")
+	WebElement generate_bttn;
+	
+	
+	public void clickGeneratbttn() {
+		javascriptClick(generate_bttn);
+		explicitlyWait(generate_bttn);
+	}
+	
+	public void clickGeneratDocument()
+	{
+		javascriptClick(moreActions_icon);
+		explicitlyWait(generateDocument_bttn);
+		javascriptClick(generateDocument_bttn);
+	}
+	
+	public void selectDocumentType(String doctype, String lang)
+	{
+		explicitlyWait(DocumentType_dropdown);
+		javascriptClick(DocumentType_dropdown);
+		WebElement docTypeElement = driver.findElement(By.xpath("//span[text()='"+doctype+"']"));
+		explicitlyWait(docTypeElement);
+		javascriptClick(docTypeElement);
+		explicitlyWait(DocumentLang_dropdown);
+		javascriptClick(DocumentLang_dropdown);
+		WebElement langElement = driver.findElement(By.xpath("//span[text()='"+lang+"']"));
+		explicitlyWait(langElement);
+		javascriptClick(langElement);
+	}
 	
 	
 	 public WebDriver getFrame() 
@@ -172,6 +217,10 @@ public class QuotePage extends BasePage {
 			e.printStackTrace();
 		}
 		Javascript(editSave_bttn);
+	}
+	
+	public void changeStatus(String statusToBeUpdated)
+	{
 		try {
 			Thread.sleep(11000);
 		} catch (InterruptedException e) {
@@ -185,7 +234,7 @@ public class QuotePage extends BasePage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		selectquoteValueFromDropDown("Status", "Approved");
+		selectquoteValueFromDropDown("Status", statusToBeUpdated);
 		Javascript(quoteSave_bttn);
 		try {
 			Thread.sleep(10000);
@@ -193,6 +242,10 @@ public class QuotePage extends BasePage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public void openOpportunity()
+	{
 		Javascript(opportunity_link);
 		//JavascriptExecutor js = (JavascriptExecutor) driver;
 		//js.executeScript("arguments[0].scrollIntoView();",opportunity_link);
@@ -200,4 +253,6 @@ public class QuotePage extends BasePage {
 		
 	}
 
+	
 }
+

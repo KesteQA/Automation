@@ -80,6 +80,11 @@ public class OpportunitiesPage extends BasePage{
 	@FindBy(xpath = " //button[text()='Done']")
 	WebElement done_bttn;
 	
+	@FindBy(xpath="//div[@class='inlineFooter']/div/button/span[text()='Next']")
+	WebElement Next_bttn;
+	
+	@FindBy(xpath="//span[text()='Stage']/parent::div/following-sibling::div/span/slot//lightning-formatted-text")
+	WebElement oppStatus_info;
 	
 public String validationError = "failing on purpose";
 	
@@ -88,15 +93,63 @@ public OpportunitiesPage()
 	PageFactory.initElements(driver, this);
 		
 }
+
+public String getOppStatus()
+{
+	explicitlyWait(oppStatus_info);
+	String oppStatus =getText(oppStatus_info);
+		return oppStatus;
+}
 	public void createEmptyOpp() 
 	{
 		click(oppNew_bttn);
 		try {
-		Thread.sleep(8000);
+		Thread.sleep(6000);
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
 		}
+		click(oppSave_bttn);
+	}
+	public void selectOppType(String oppType)
+	{
+		selectObjectType(oppType);
+		javascriptClick(Next_bttn);
+	}
+	
+	public String createOppWithType(String recordType, String type, String subType, String accName)
+	{
+		String oppName = null;
+		selectOppType(recordType);
+		
+		if(recordType.equalsIgnoreCase("New Contract"))
+		{
+			System.out.println("in new contract");
+			oppName= createNewContractOPP(type, subType, accName);
+		}
+		
+		return oppName;
+		
+	}
+	public String createNewContractOPP(String type, String subType, String accName)
+	{
+		sendkeys(getInputTextField("Opportunity Name"), TestUtils.getRandomString(8));
+		selectValueFromLookUpField(accName_txt, accName);
+		selectValueFromDropDown(false, "Type", type);
+		selectValueFromDropDown(false, "Order Type", subType);
+		sendkeys(closedDate_txt, "12/12/2020");	
+		selectValueFromDropDown(false, "Stage", "Prospecting");
+		click(oppSave_bttn);
+			return  accName +" - New Contract";
+	}
+	
+	public void createNewContractOPP(String type, String subType)
+	{
+		sendkeys(getInputTextField("Opportunity Name"), TestUtils.getRandomString(8));
+		selectValueFromDropDown(false, "Type", type);
+		selectValueFromDropDown(false, "Order Type", subType);
+		sendkeys(closedDate_txt, "12/12/2020");	
+		selectValueFromDropDown(false, "Stage", "Prospecting");
 		click(oppSave_bttn);
 	}
 	
@@ -114,7 +167,7 @@ public OpportunitiesPage()
 		String opportunityName= TestUtils.getRandomString(8); 
 		click(oppNew_bttn);
 		try {
-			Thread.sleep(8000);
+			Thread.sleep(6000);
 			}
 			catch (Exception e){
 				System.out.println(e.getMessage());
@@ -193,6 +246,11 @@ public OpportunitiesPage()
 		}
 		Javascript(done_bttn);
 	}
-	
+	public String getRoleValue(String rolename)
+	{
+	WebElement userWithRole = driver.findElement(By.xpath("//table/tbody/tr/td//span[text()='"+rolename+"']/ancestor::td/preceding-sibling::th//div//a"));
+   return 	userWithRole.getText();
+		
+	}
 }
 

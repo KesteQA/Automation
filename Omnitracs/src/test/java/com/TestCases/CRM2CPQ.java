@@ -30,7 +30,12 @@ public class CRM2CPQ extends BaseTest{
 	
 
 	@Test
-	public void LeadtoQuote() {		
+	public void LeadtoQuote() {	
+		
+		loginPage = new LoginPage();
+		loginPage.login("BD");
+		ExtentTestManager.getTest().log(Status.INFO,"logged in as BD profile");
+		logger.info("Logged in to application");
 		BasePage.domLoaded();
 		if(BasePage.navigateTabs("Accounts")) {
 			logger.info("CRM2CPQ: Navigated to Accounts page");
@@ -231,6 +236,20 @@ public class CRM2CPQ extends BaseTest{
 			}
 			
 			quotePage.addProducts();
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			quotePage.changeStatus("Approved");
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			quotePage.openOpportunity();
 			try {
 				Thread.sleep(3000);
 			} catch (InterruptedException e) {
