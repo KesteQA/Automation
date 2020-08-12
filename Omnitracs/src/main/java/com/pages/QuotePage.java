@@ -185,7 +185,7 @@ public class QuotePage extends BasePage {
 		}
 		Javascript(suggest_bttn);
 		try {
-			Thread.sleep(8000);
+			Thread.sleep(6000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
