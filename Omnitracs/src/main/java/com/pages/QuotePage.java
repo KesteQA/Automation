@@ -22,6 +22,10 @@ public class QuotePage extends BasePage {
 	
 	@FindBy(xpath = " //button[text()='Edit Lines']")
 	WebElement editLines_bttn;
+	@FindBy(xpath = " //span[text()='Show more actions']//parent::button")
+	WebElement showmore_bttn;
+	@FindBy(xpath = "//span[text()='Edit Lines']//parent::a")
+	WebElement editLines_link;
 	
 	@FindBy(xpath="//*[contains(@name,'vfFrameId_')]")
 	WebElement containerFrame;
@@ -114,7 +118,8 @@ public class QuotePage extends BasePage {
 	}
 	public void EditLines()
 	{
-		click(editLines_bttn);	
+		click(showmore_bttn);	
+		click(editLines_link);
 	}
 	public void AddProducts()
 	{

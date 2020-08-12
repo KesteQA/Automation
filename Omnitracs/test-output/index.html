@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-test_suite">
-                    <span>D:\Selenium\Workspace\Omnitracs\testng.xml</span>
+                    <span>C:\Users\snamavarapu\git\Automation1\Omnitracs\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -135,7 +135,7 @@
         </div> <!-- panel test_suite -->
         <div panel-name="test-xml-test_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Selenium\Workspace\Omnitracs\testng.xml</span>
+            <span class="header-content">C:\Users\snamavarapu\git\Automation1\Omnitracs\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -153,6 +153,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.TestCases.AccountToQuote&quot;/&gt;
       &lt;class name=&quot;com.TestCases.ContactsTest&quot;/&gt;
+      &lt;class name=&quot;com.TestCases.CRM2CLM&quot;/&gt;
       &lt;class name=&quot;com.TestCases.CRM2CPQ&quot;/&gt;
       &lt;class name=&quot;com.TestCases.LeadsTest&quot;/&gt;
       &lt;class name=&quot;com.TestCases.OpportunitiesTest&quot;/&gt;
@@ -169,7 +170,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression testing (5 classes)</span>
+                <span class="test-name">Regression testing (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,12 +200,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LeadtoQuote')
 data.setCell(0, 2, 'com.TestCases.CRM2CPQ')
-data.setCell(0, 3, 217041);
+data.setCell(0, 3, 245520);
 window.suiteTableData['test_suite']= { tableData: data, tableDiv: 'times-div-test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-test_suite">
               </div> <!-- times-div-test_suite -->
             </div> <!-- times-div -->
@@ -219,7 +220,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-test_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">11 ignored methods</span>
+            <span class="header-content">13 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -241,13 +242,22 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.TestCases.OpportunitiesTest</span>
+              <span class="ignored-class-name">com.TestCases.LeadsTest</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">LeadstoOpptyConversion</span>
+                <br/>
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
-                <span class="ignored-method-name">VerifyOppValidationFail</span>
+                <span class="ignored-method-name">VerifyMandatoryValidation</span>
                 <br/>
-                <span class="ignored-method-name">VerifyOppsCreation</span>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.TestCases.CRM2CLM</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AcctoLegalAgreement</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -259,13 +269,13 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.TestCases.LeadsTest</span>
+              <span class="ignored-class-name">com.TestCases.OpportunitiesTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">LeadstoOpptyConversion</span>
-                <br/>
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
-                <span class="ignored-method-name">VerifyMandatoryValidation</span>
+                <span class="ignored-method-name">VerifyOppValidationFail</span>
+                <br/>
+                <span class="ignored-method-name">VerifyOppsCreation</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -284,18 +294,18 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LeadtoQuote</span>
-                <span class="method-start">26625 ms</span>
+                <span class="method-start">17421 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">wrapUp</span>
-                <span class="method-start">243668 ms</span>
+                <span class="method-start">262942 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.TestCases.AccountToQuote</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">243976 ms</span>
+                <span class="method-start">263588 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
