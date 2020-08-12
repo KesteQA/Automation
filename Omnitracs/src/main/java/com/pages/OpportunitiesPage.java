@@ -167,7 +167,7 @@ public String getOppStatus()
 		String opportunityName= TestUtils.getRandomString(8); 
 		click(oppNew_bttn);
 		try {
-			Thread.sleep(6000);
+			Thread.sleep(8000);
 			}
 			catch (Exception e){
 				System.out.println(e.getMessage());
