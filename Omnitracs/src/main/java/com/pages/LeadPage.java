@@ -14,6 +14,9 @@ public class LeadPage extends BasePage{
 	{
 		PageFactory.initElements(driver, this);		
 	}
+	@FindBy(xpath="//button[text()='Edit']")
+	WebElement Edit_bttn;
+	
 	@FindBy(xpath="//button[@title='Save']")
 	WebElement LeadSave_bttn;
 	@FindBy(xpath= "//lightning-formatted-name")
@@ -33,6 +36,29 @@ public class LeadPage extends BasePage{
 	
 	@FindBy(xpath="//ul[@class='errorsList']/li")
 	WebElement LeadValidation_info; 
+	
+	@FindBy(xpath="//button[text()='Add/Update Address']")
+	WebElement AddUpdateAddress_bttn; 
+	
+	@FindBy(xpath="//label[contains(text(),'Address line 1')]/parent::lightning-input//div//input")
+	WebElement AddressLine1_textarea; 
+	@FindBy(xpath="//label[contains(text(),'City')]/parent::lightning-input//div//input")
+	WebElement City_textarea; 
+	@FindBy(xpath="//label[contains(text(),'State')]/parent::lightning-input//div//input")
+	WebElement State_textarea; 
+	@FindBy(xpath="//label[contains(text(),'Zip Code')]/parent::lightning-input//div//input")
+	WebElement ZipCode_textarea; 
+	@FindBy(xpath="//button[contains(text(),'Validate')]")
+	WebElement Validate_bttn; 
+	@FindBy(xpath="//button[contains(text(),'Create Address')]")
+	WebElement Createaddress_bttn; 
+	
+	@FindBy(xpath="//span[text()='Show more actions']//parent::button")
+	WebElement Convert_bttn;
+	
+	@FindBy(xpath="//span[text()='Convert']//parent::a")
+	WebElement Convert_link;
+	
 	
 	public void clickConvertedOpportunity()
 	{
@@ -62,10 +88,12 @@ public class LeadPage extends BasePage{
 		return getText(leadName_txt);
 	}
 	public void UpdateLead(Map<String, String> testData)
+	
 	{
 		String nametestdata = TestUtils.getRandomString(3);
 		String zipdata= TestUtils.getRandomNumber(5);
 		String size= TestUtils.getRandomNumber(2);
+		
 		sendkeys(getInputTextField("SIC Code"), size);
 		sendkeys(getInputTextField("NAICS Code"), size);
 		selectValueFromDropdown("Segment",testData.get("Segment"));
@@ -88,6 +116,7 @@ public class LeadPage extends BasePage{
 		String size= TestUtils.getRandomNumber(2);
 		//sendkeys(getInputTextField("SIC Code"), size);
 		//sendkeys(getInputTextField("NAICS Code"), size);
+		Edit_bttn.click();
 		selectValueFromDropdown("Segment","DCC");
 		selectValueFromDropDown(true, "Competitor",competitorAccount);
 		selectValueFromDropdown("Market", "Channel");
@@ -104,12 +133,32 @@ public class LeadPage extends BasePage{
 		sendkeys(getInputTextField("Primary SIC - D&B"), size);
 		sendkeys(getInputTextField("Website"),"www."+nametestdata+".com");
 		click(LeadSave_bttn);
+		try {
+			Thread.sleep(6000);
+			}
+			catch (Exception e){
+				System.out.println(e.getMessage());
+			}
+		AddUpdateAddress();
+		try {
+			Thread.sleep(20000);
+			}
+			catch (Exception e){
+				System.out.println(e.getMessage());
+			}
+		click(Convert_bttn);
 	}
 	
 	public boolean ConvertLead()
 	{
 		//selectValueFromSalesForceLookUpField("Account", "automation1");
-		
+		click(Convert_link);
+		try {
+			Thread.sleep(6000);
+			}
+			catch (Exception e){
+				System.out.println(e.getMessage());
+			}
 		ConvertSave_bttn.click();
 		return true;
 	}
@@ -138,6 +187,23 @@ public class LeadPage extends BasePage{
 	public String getErrorText()
 	{
 		return getText(LeadValidation_info);
+	}
+	public void AddUpdateAddress()
+	{
+		click(AddUpdateAddress_bttn);
+		try {
+			Thread.sleep(6000);
+			}
+			catch (Exception e){
+				System.out.println(e.getMessage());
+			}
+	
+		sendkeys(City_textarea,"Richardson");
+		sendkeys(State_textarea,"tx");
+		sendkeys(ZipCode_textarea,"75082");
+		sendkeys(AddressLine1_textarea,"2300 E President George Bush Hwy");
+		click(Validate_bttn);
+		click(Createaddress_bttn);
 	}
 	
 };

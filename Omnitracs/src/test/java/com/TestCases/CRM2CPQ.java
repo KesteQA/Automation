@@ -97,17 +97,17 @@ public class CRM2CPQ extends BaseTest{
 		ExtentTestManager.getTest().log(Status.INFO,"Verified the successful lead record creation");
 		BasePage.domLoaded();
 		//Clicking on Edit button to update lead
-	    int attempts = 0;
+	   /* int attempts = 0;
 	    while(attempts < 2) {
 	        try {
-	        	BasePage.navigateTabs("Edit");
+	        	//BasePage.navigateTabs("Edit");
 	            //result = true;
 	            break;
 	        } catch(StaleElementReferenceException e) {
 	        }
-	        attempts++;
-	    }
-	    ExtentTestManager.getTest().log(Status.INFO," Clicked on Edit Button");
+	        attempts++;*/
+	   // }
+	   // ExtentTestManager.getTest().log(Status.INFO," Clicked on Edit Button");
 	
 	    leadPage.UpdateLead(competitorAccount);
 	    logger.info("CRM2CPQ: Created Lead  got updated page");
@@ -117,16 +117,15 @@ public class CRM2CPQ extends BaseTest{
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		  if(BasePage.navigateTabs("Convert")){
-		  logger.info("CRM2CPQ: Clicked on Convert Button");
-		  ExtentTestManager.getTest().log(Status.INFO,"Clicked on Convert Button");
-		  }else { return; } BasePage.domLoaded(); 
-		  
-		  try {
-				Thread.sleep(6000);
-			} catch (Exception e) {
-				System.out.println(e.getMessage());
-			}
+		/*
+		 * if(BasePage.navigateTabs("Convert")){
+		 * logger.info("CRM2CPQ: Clicked on Convert Button");
+		 * ExtentTestManager.getTest().log(Status.INFO,"Clicked on Convert Button");
+		 * }else { return; } BasePage.domLoaded();
+		 * 
+		 * try { Thread.sleep(6000); } catch (Exception e) {
+		 * System.out.println(e.getMessage()); }
+		 */
 		
 		  if(leadPage.ConvertLead()) { logger.info("CRM2CPQ: Converted the lead");
 		  ExtentTestManager.getTest().log(Status.INFO,"Converted the lead");

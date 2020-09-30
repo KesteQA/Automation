@@ -122,9 +122,9 @@ public class Accounts extends BasePage{
 		//sendkeys(getInputTextField("FMCSA Fleet Size"), size);
 		sendkeys(getInputTextField("Phone"), phonenumberdata);
 		selectRandomFromDropDown(false, "Type");
-		selectValueFromDropDown(false, "Segment", "DCC");
-		selectValueFromDropDown(false, "Region", "Domestic");
-		selectValueFromDropDown(false, "Market", "Channel");
+		//selectValueFromDropDown(false, "Segment", "DCC");
+		//selectValueFromDropDown(false, "Region", "Domestic");
+		//selectValueFromDropDown(false, "Market", "Channel");
 		//selectValueFromDropDown(false, "Billing Country", "United States");
 	  // sendkeys(BillingStreet_textBox, TestUtils.getRandomString(10));
 		//sendkeys(getInputTextField("Billing City"), TestUtils.getRandomString(6));
@@ -143,9 +143,9 @@ public class Accounts extends BasePage{
 		//sendkeys(getInputTextField("FMCSA Fleet Size"), size);
 		sendkeys(getInputTextField("Phone"), phonenumberdata);
 		selectRandomFromDropDown(false, "Type");
-		selectValueFromDropDown(false, "Segment", "DCC");
-		selectValueFromDropDown(false, "Region", "Domestic");
-		selectValueFromDropDown(false, "Market", "Channel");
+		//selectValueFromDropDown(false, "Segment", "DCC");
+		//selectValueFromDropDown(false, "Region", "Domestic");
+		//selectValueFromDropDown(false, "Market", "Channel");
 		//selectValueFromDropDown(false, "Billing Country", "United States");
 	   //sendkeys(BillingStreet_textBox, TestUtils.getRandomString(10));
 		//sendkeys(getInputTextField("Billing City"), TestUtils.getRandomString(6));
